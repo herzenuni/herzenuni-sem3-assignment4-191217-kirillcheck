@@ -1,5 +1,5 @@
-#numbers = [1, 4, 10, -3, -8, 7, 15, 0, 31, 28, -10]
-numbers =  [1, 9, -10, -20, -8, 7, 14, 0, 20, 20, -20]
+#numbers = [2, 5, 11, -4, -7, 8, 14, 0, 32, 29, -11]
+numb =  [2, 10, -9, -19, -7, 8, 15, 0, 21, 21, -19]
 def exam(lst):
  min_1 = min(lst[0], lst[1])
  max_1 = max(lst[0], lst[1])
@@ -15,4 +15,4 @@ def exam(lst):
    max_1 = max(max_1, x)
  return min_3
 
-print(exam(numbers))
+print(exam(numb))
